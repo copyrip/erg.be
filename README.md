@@ -5,7 +5,7 @@
 * [ ] écrire un mail pour demander du feedback sur le site
 * [ ] comment faire un template mediawiki ?
 * [ ] agenda
-
+* [ ] récuperer les accès du serveur de l'erg
 ## A faire
 ### graphsime
 * [ ] integrer choix typos
@@ -16,4 +16,4 @@
 * allez vous sur le site de l'erg ?
 * à quoi sert ce site ?
 * des idées ?
-* votre font preferée ? 
+* votre font preferée ?
