@@ -1,5 +1,17 @@
 # erg.be
 
+## Réunion publique d'information: ping - http://erg.be
+
+Une école c'est des étudiant.e.s et des enseignant.e.s, des cours et des ateliers, une administration mais aussi un site web. Vous n'avez jamais compris l'interet de site de l'erg ? C'est le moment d'en parler.
+
+La réunion aura lieu dans l'auditoire le /_/_/_/_ X /_/_/_/_/_/_ à partir de 13h.
+
+![Le site de l'erg en 2006](http://copyright.rip/medias/erg/site-erg-15-jan-2006.png)
+*Capture d'écran d'une archive du site de l'erg au 17 janvier 2006, via la wayback machine d'Internet Archive*
+
+
+## passé
+
 ## 22.02.24 @erg
 * [x] faire un repo github commun
 * [ ] écrire un mail pour demander du feedback sur le site
