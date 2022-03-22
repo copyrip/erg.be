@@ -40,3 +40,8 @@ La réunion aura lieu dans l'auditoire le /_/_/_/_ X /_/_/_/_/_/_ à partir de 1
 * en faire une copie fredo-skin et marty-skin
 * commencer à faire son propre skin
 
+
+## réunion
+* stéphanie peut faire des accès
+* nouveaux fichiers au lieu de la carte
+* 
