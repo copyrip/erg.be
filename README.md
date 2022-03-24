@@ -45,3 +45,19 @@ La réunion aura lieu dans l'auditoire le /_/_/_/_ X /_/_/_/_/_/_ à partir de 1
 * stéphanie peut faire des accès
 * nouveaux fichiers au lieu de la carte
 * 
+
+## réunion - jeudi 24
+* réfléchier l'arborescence
+* rationaliser les contenus
+** nombre de paragraphe imposés pour
+** cours
+** AP
+**
+* relancer les cours pour avoir des paragraphes (1 ou 2)
+** en leur donnant un nb de caratcères
+* INSPIS
+** TTTToolbox
+* [ ] contacter Ludi pour une typo
+* [ ] faire un essai de skin/theme
+* [ ] faire un essai de carte
+* [ ] mail stéphanie ID serveur
