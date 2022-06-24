@@ -1,0 +1,73 @@
+/* ==================================
+Fonts for erg.be
+* Latin Modern Mono, for ui elements, non-labor text.
+* Lucette Regular, for labor text, and maybe titles ?
+* > alt BXLine ?
+
+   ================================== */
+
+@font-face {
+        font-family: 'Latin Modern Mono';
+        font-weight: normal;
+        font-style: normal;
+        src: url('lmmono10-regular.eot');
+        src: url('lmmono10-regular.eot?#iefix') format('embedded-opentype'),
+        /*url('my-font-filename.svg#my-font-family') format('svg'),*/
+        url('lmmono10-regular.woff') format('woff'),
+        url('lmmono10-regular.otf') format('opentype');
+}
+
+@font-face {
+        font-family: 'Latin Modern Mono';
+        font-weight: normal;
+        font-style: italic;
+        src: url('lmmono10-italic.eot');
+        src: url('lmmono10-italic.eot?#iefix') format('embedded-opentype'),
+        /*url('my-font-filename.svg#my-font-family') format('svg'),*/
+        url('lmmono10-italic.woff') format('woff'),
+        url('lmmono10-italic.otf') format('opentype');
+}
+
+@font-face {
+        font-family: 'Lucette Regular';
+        font-weight: normal;
+        font-style: normal;
+        src: url('Lucette-Regular.eot');
+        src: url('Lucette-Regular.eot?#iefix') format('embedded-opentype'),
+        /*url('my-font-filename.svg#my-font-family') format('svg'),*/
+        url('Lucette-Regular.woff') format('woff'),
+        url('Lucette-Regular.otf') format('opentype');
+}
+
+@font-face {
+        font-family: 'Lucette Regular';
+        font-weight: normal;
+        font-style: italic;
+        src: url('Lucette-Regularitalic.eot');
+        src: url('Lucette-Regularitalic.eot?#iefix') format('embedded-opentype'),
+        /*url('my-font-filename.svg#my-font-family') format('svg'),*/
+        url('Lucette-Regularitalic.woff') format('woff'),
+        url('Lucette-Regularitalic.otf') format('opentype');
+}
+
+@font-face {
+        font-family: 'BX Line';
+        font-weight: normal;
+        font-style: normal;
+        src: url('BXlinePC-Normal.eot');
+        src: url('BXlinePC-Normal.eot?#iefix') format('embedded-opentype'),
+        /*url('my-font-filename.svg#my-font-family') format('svg'),*/
+        url('BXlinePC-Normal.woff') format('woff'),
+        url('BXlinePC-Normal.otf') format('opentype');
+}
+
+@font-face {
+        font-family: 'BX Line';
+        font-weight: normal;
+        font-style: italic;
+        src: url('BXlineItalique.eot');
+        src: url('BXlineItalique.eot?#iefix') format('embedded-opentype'),
+        /*url('my-font-filename.svg#my-font-family') format('svg'),*/
+        url('BXlineItalique.woff') format('woff'),
+        url('BXlineItalique.otf') format('opentype');
+}

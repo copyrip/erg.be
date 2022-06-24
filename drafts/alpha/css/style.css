@@ -1,0 +1,61 @@
+/* html, body {
+	color:#FFF;
+	background:#000;
+}
+ */
+
+h1 {
+	font-family:"Deconst";
+	line-height:200%;
+}
+
+a, a:hover, a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+nav {
+	display:inline-block;
+	font-family:"Latin Modern Mono"
+}
+
+nav ul li {
+	list-style-type:none;
+	line-height:120%;
+}
+
+nav ul li:before {
+	content:"[ ] ";
+}
+
+nav ul li:hover:before {
+	content:"[x] ";
+}
+
+main {
+	display:inline-block;
+	width:60%;
+}
+
+main p {
+	font-family:"Lucette Regular";
+	font-family:"BX Line";
+	font-size:16pt;
+}
+main p:hover {
+	font-family:"Lucette Regular";
+}
+
+main p span {
+	font-family:"Figura";
+	font-size:12pt;
+}
+
+.dark {
+	color:#FFF !important;
+	background:#000 !important;
+}
+
+.dark a {
+	color:#fff;
+}

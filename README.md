@@ -14,7 +14,7 @@ La réunion aura lieu dans l'auditoire le /_/_/_/_ X /_/_/_/_/_/_ à partir de 1
 
 ## 22.02.24 @erg
 * [x] faire un repo github commun
-* [ ] écrire un mail pour demander du feedback sur le site
+* [x] écrire un mail pour demander du feedback sur le site
 * [ ] comment faire un template mediawiki ?
 * [ ] agenda
 * [ ] récuperer les accès du serveur de l'erg
