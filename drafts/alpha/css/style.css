@@ -24,11 +24,11 @@ nav ul li {
 	line-height:120%;
 }
 
-nav ul li:before {
+nav ul li a:before {
 	content:"[ ] ";
 }
 
-nav ul li:hover:before {
+nav ul li a:hover:before {
 	content:"[x] ";
 }
 
