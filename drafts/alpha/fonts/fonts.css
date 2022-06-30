@@ -45,7 +45,7 @@ Fonts for erg.be
 @font-face {
         font-family: 'Lucette Regular';
         font-weight: normal;
-        font-style: normal;
+	font-style: normal;
         src: url('Lucette-Regular.eot');
         src: url('Lucette-Regular.eot?#iefix') format('embedded-opentype'),
         url('Lucette-Regular.woff') format('woff'),
@@ -100,5 +100,15 @@ Fonts for erg.be
         src: url('espatarra-regular.eot?#iefix') format('embedded-opentype'),
         url('espatarra-regular.woff') format('woff'),
         url('espatarra-regular.otf') format('opentype');
+}
+
+@font-face {
+        font-family: 'Giskith';
+        font-weight: normal;
+        font-style: normal;
+        src: url('Giskith.eot');
+        src: url('Giskith.eot?#iefix') format('embedded-opentype'),
+        url('Giskith.woff') format('woff'),
+        url('Giskith.otf') format('opentype');
 }
 

@@ -95,6 +95,7 @@ footer a, footer a:visited, footer a:hover {
 }
 
 footer ul {
+	width:1000%;
 	margin:0;
 	padding:5px 0 5px 0;
 }
@@ -122,64 +123,57 @@ footer ul li span {
 
 /* ==== css marquee ==== */
 
-.marquee {
 /*
-	height: 50px;
-	overflow: hidden;
-	position: relative;
-	background: #fefefe;
-	color: #333;
-	border: 1px solid #4a4a4a;
+.slider{
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    margin:0;
+}
+.edge{
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    position:absolute;
+    height:100%;
+    display:block;
+}
+.edge:before{
+    content:'';
+    position:absolute;
+    left:0;
+    background:-webkit-linear-gradient(left, white 10%, rgba(0,0,0,0) 100%);
+    width:25%;
+    height:100%;
+}
+.edge:after{
+    content:'';
+    position:absolute;
+    right:0;
+    background:-webkit-linear-gradient(right, white 10%, rgba(0,0,0,0) 100%);
+    width:25%;
+    height:100%;
+}
+ul{
+    background:#ddd;
+    overflow:hidden;
+    width:1000%;
+    margin:0;
+}
+li{
+    list-style:none;
+    display:inline-block;
+    padding:0 50px;
+}     
 */
+footer ul {
+	animation:marquee 60s linear infinite;
 }
 
-.marquee li {
-	position: absolute;
-	-moz-transform: translateX(100%);
-	-webkit-transform: translateX(100%);
-	transform: translateX(100%);
-	-moz-animation: scroll-left 2s linear infinite;
-	-webkit-animation: scroll-left 2s linear infinite;
-	animation: scroll-left 20s linear infinite;
-/*
-	margin: 0;
-	line-height: 50px;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-*/
-}
-/*
-@-moz-keyframes scroll-left {
-	0% {
-		-moz-transform: translateX(100%);
-	}
-	100% {
-		-moz-transform: translateX(-100%);
-	}
-}
-
-@-webkit-keyframes scroll-left {
-	0% {
-		-webkit-transform: translateX(100%);
-	}
-	100% {
-		-webkit-transform: translateX(-100%);
-	}
-}
-*/
-
-@keyframes scroll-left {
-	0% {
-		-moz-transform: translateX(100%);
-		-webkit-transform: translateX(100%);
-		transform: translateX(100%);
-	}
-	100% {
-		-moz-transform: translateX(-100%);
-		-webkit-transform: translateX(-100%);
-		transform: translateX(-100%);
-	}
+@keyframes marquee {
+	from{transform:translateX(0); }
+	to{transform:translateX(-50%); }
 }
 
 /* ==== specimen helpers ==== */
@@ -188,6 +182,7 @@ footer ul li span {
 .figura { font-family:"Figura", cursive; }
 .lucette { font-family:"Lucette Regular", cursive; }
 .espatarra { font-family:"Espatarra", cursive; }
+.giskith { font-family:"Giskith", cursive; }
 
 
 /* ==== dark mode ? ===== */
@@ -200,3 +195,6 @@ footer ul li span {
 .dark a {
 	color:#fff;
 }
+
+/* ==== random helpers ==== */
+footer h4 {display:none}

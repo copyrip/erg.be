@@ -1,5 +1,21 @@
 # erg.be
 
+## à faire
+* [ ] bannière de news
+** animation en javascript
+** 
+* [ ] mise en page generale
+** fixer les elements
+** 
+
+## Réunion w/ Fred 2022-06-30
+* se voir IRL lundi 4 juillet
+** css du mediawiki
+** mieux comprendre github
+* integrer plus d'informations au graphique
+* rajouter des interactions au graphique (toggle prof name)
+*
+
 ## Réunion publique d'information: ping - http://erg.be
 
 Une école c'est des étudiant.e.s et des enseignant.e.s, des cours et des ateliers, une administration mais aussi un site web. Vous n'avez jamais compris l'interet de site de l'erg ? C'est le moment d'en parler.
@@ -9,15 +25,12 @@ La réunion aura lieu dans l'auditoire le /_/_/_/_ X /_/_/_/_/_/_ à partir de 1
 ![Le site de l'erg en 2006](http://copyright.rip/medias/erg/site-erg-15-jan-2006.png)
 *Capture d'écran d'une archive du site de l'erg au 17 janvier 2006, via la wayback machine d'Internet Archive*
 
-
-## passé
-
 ## 22.02.24 @erg
 * [x] faire un repo github commun
 * [x] écrire un mail pour demander du feedback sur le site
-* [ ] comment faire un template mediawiki ?
-* [ ] agenda
-* [ ] récuperer les accès du serveur de l'erg
+* [x] comment faire un template mediawiki ?
+* [x] agenda
+* [x] récuperer les accès du serveur de l'erg
 
 ## A faire
 ### graphsime
