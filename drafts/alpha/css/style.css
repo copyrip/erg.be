@@ -1,6 +1,6 @@
 /* html, body {
-	color:#FFF;
-	background:#000;
+color:#FFF;
+background:#000;
 }
  */
 
@@ -12,6 +12,12 @@ h1 {
 a, a:hover, a:visited {
 	color:#000;
 	text-decoration:none;
+}
+#left {
+}
+
+.fixed {
+	position:fixed;
 }
 
 nav {
@@ -58,6 +64,9 @@ footer {
 	bottom:0;
 
 	width:100%;
+	height:30pt;
+
+	white-space:nowrap;
 
 	margin:0;
 	padding:0;
@@ -93,13 +102,93 @@ footer ul {
 footer ul li {
 	display:inline;
 	list-style-type:none;
+	margin: 0 15px;
 }
 
 footer ul li span {
+	background:#fff;
+	color:#000;
+
+	border-radius:6px 6px;
+
 	vertical-align:middle;
+
+	padding: 3px 12px;
+
 	font-size:12pt;
 	font-family:"Latin Modern Mono", monospace;
+	font-weight:bold;
 }
+
+/* ==== css marquee ==== */
+
+.marquee {
+/*
+	height: 50px;
+	overflow: hidden;
+	position: relative;
+	background: #fefefe;
+	color: #333;
+	border: 1px solid #4a4a4a;
+*/
+}
+
+.marquee li {
+	position: absolute;
+	-moz-transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	-moz-animation: scroll-left 2s linear infinite;
+	-webkit-animation: scroll-left 2s linear infinite;
+	animation: scroll-left 20s linear infinite;
+/*
+	margin: 0;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+*/
+}
+/*
+@-moz-keyframes scroll-left {
+	0% {
+		-moz-transform: translateX(100%);
+	}
+	100% {
+		-moz-transform: translateX(-100%);
+	}
+}
+
+@-webkit-keyframes scroll-left {
+	0% {
+		-webkit-transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(-100%);
+	}
+}
+*/
+
+@keyframes scroll-left {
+	0% {
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100% {
+		-moz-transform: translateX(-100%);
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+}
+
+/* ==== specimen helpers ==== */
+
+.bx_line { font-family:"BX Line", cursive; }
+.figura { font-family:"Figura", cursive; }
+.lucette { font-family:"Lucette Regular", cursive; }
+.espatarra { font-family:"Espatarra", cursive; }
+
 
 /* ==== dark mode ? ===== */
 

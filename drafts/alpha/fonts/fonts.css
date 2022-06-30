@@ -6,6 +6,9 @@ Fonts for erg.be
 * figura, for title
 * NEWS banner multiple fonts ?
 * > figura
+* > bx line
+* > lucette
+* > espatarra
 
    ================================== */
 
@@ -27,6 +30,16 @@ Fonts for erg.be
         src: url('lmmono10-italic.eot?#iefix') format('embedded-opentype'),
         url('lmmono10-italic.woff') format('woff'),
         url('lmmono10-italic.otf') format('opentype');
+}
+
+@font-face {
+        font-family: 'Latin Modern Mono';
+        font-weight: bold;
+        font-style: normal;
+        src: url('lmmonolt10-bold.eot');
+        src: url('lmmonolt10-bold.eot?#iefix') format('embedded-opentype'),
+        url('lmmonolt10-bold.woff') format('woff'),
+        url('lmmonolt10-bold.otf') format('opentype');
 }
 
 @font-face {
@@ -78,3 +91,14 @@ Fonts for erg.be
         url('figura.woff') format('woff'),
         url('figura.otf') format('opentype');
 }
+
+@font-face {
+        font-family: 'Espatarra';
+        font-weight: normal;
+        font-style: normal;
+        src: url('espatarra-regular.eot');
+        src: url('espatarra-regular.eot?#iefix') format('embedded-opentype'),
+        url('espatarra-regular.woff') format('woff'),
+        url('espatarra-regular.otf') format('opentype');
+}
+
