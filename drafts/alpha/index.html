@@ -14,23 +14,25 @@
 		<!--		<link rel="stylesheet" href="css/marquee.css" />-->
 	</head>
 	<body class="">
-		<h1>erg</h1>
+		<div id="left">
+			<h1>erg</h1>
 
-		<nav>
-			<ul>
-				<li><a href="./">Projet pédagogique</a></li>
-				<li><a href="./">Cursus pluridisciplinaire</a></li>
-				<li><a href="./">Bacheliers</a></li>
-				<li><a href="./">Masters</a></li>
-				<li><a href="./">Espaces transversaux</a></li>
-				<li><a href="./">Admission 2022-2023</a></li>
-				<li><a href="./">Séminaires</a></li>
-				<li><a href="./">Doctorat et recherche</a></li>
-				<li><a href="./">Contact</a></li>
-				<li>- - -</li>
-				<li><input type="text" placeholder="Rechercher..."></input> <input type="button" value="🔎"></input></li>
-			</ul>
-		</nav>
+			<nav>
+				<ul>
+					<li><a href="./">Projet pédagogique</a></li>
+					<li><a href="./">Cursus pluridisciplinaire</a></li>
+					<li><a href="./">Bacheliers</a></li>
+					<li><a href="./">Masters</a></li>
+					<li><a href="./">Espaces transversaux</a></li>
+					<li><a href="./">Admission 2022-2023</a></li>
+					<li><a href="./">Séminaires</a></li>
+					<li><a href="./">Doctorat et recherche</a></li>
+					<li><a href="./">Contact</a></li>
+					<li>- - -</li>
+					<li><input type="text" placeholder="Rechercher..."></input> <input type="button" value="🔎"></input></li>
+				</ul>
+			</nav>
+		</div>
 
 		<main>
 			<p>L’erg est le lieu des <i>pratiques artistiques</i>, plastiques, graphiques qui entrent dans les zones à risque théoriques et formelles. Un lieu et des pédagogies à définir et redéfinir collectivement. C’est un lieu où l’on peut apprendre de ce qui ne marche pas. <span>Un lieu de recherche donc.</span></p> 
@@ -41,33 +43,34 @@
 
 		<footer>
 			<div id="news" class="simple-marquee-container">
-				<h4>NEWS :</h4>
-				<marquee onmouseover="this.stop();" onmouseout="this.start();">
-				<ul>
-					<li><span>05.09-10.09.2022</span> - <a href="./">(PAS SI) FRAGILE ! THE NEXT PERFORMANCE ART GENERATION</a></li>
-					<li><a href="./">Appel FRArt 2023</a></li>
-					<li><span>Vernissage 30.06.2022</span> - <a href="./">MÊME MÊME - Exposition au Centre Culturel Jacques Franck</a></li>
-					<li><span>30.06-28.08.2022</span> - MULTIPLE ERG EXPERIENCE MARKET</li>
-					<li><span>13.05.2022</span> - Teaching To Transgress Toolbox - Website</li>
-					<li><span>11.05.2022</span> - Exposition ERG Graphisme Master 2</li>
-					<li><span>10.05.2022</span> - MONUMENTA MORI - Création textuelle</li>
-					<li><span>07.05.2022</span> - On prépare le terrain - Cycle KelderKamerMuziek (VOLUME 1)</li>
-					<li><span>05-06.05.2022</span> - WORKSHOP TAMPON expo</li>
-					<li><span>05.05.2022</span> - Lutter contre le harcèlement et les violences sexuelles au sein des Ecoles supérieures des Arts Rencontre et échanges avec le collectif CLASCHES</li>
+				<h4><a href="#">NEWS :</a></h4>
+				<!--<marquee onmouseover="this.stop();" onmouseout="this.start();">-->
+				<ul class="marquee">
+					<li class="espatarra"><span>05.09-10.09.2022 →</span>  <a href="./">(PAS SI) FRAGILE ! THE NEXT PERFORMANCE ART GENERATION</a></li>
+					<li><a href="./">Appel FRArt 2023</a> </li>
+					<li><span>Vernissage 30.06.2022 →</span>  <a href="./">MÊME MÊME - Exposition au Centre Culturel Jacques Franck</a></li>
+					<li><span>30.06-28.08.2022 →</span> → MULTIPLE ERG EXPERIENCE MARKET</li>
+					<li><span>13.05.2022 →</span>  Teaching To Transgress Toolbox - Website</li>
+					<li><span>11.05.2022 →</span>  Exposition ERG Graphisme Master 2</li>
+					<li><span>10.05.2022 →</span>  MONUMENTA MORI - Création textuelle</li>
+					<li><span>07.05.2022 →</span>  On prépare le terrain - Cycle KelderKamerMuziek (VOLUME 1)</li>
+					<li><span>05-06.05.2022 →</span>  WORKSHOP TAMPON expo</li>
+					<li><span>05.05.2022 →</span>  Lutter contre le harcèlement et les violences sexuelles au sein des Ecoles supérieures des Arts Rencontre et échanges avec le collectif CLASCHES</li>
 				</ul>
-				</marquee>
+				<!--</marquee>-->
 			</div>
 
 		</footer>
-<!--
 		<script src="./js/jquery-3.6.0.min.js"></script>
 
-		<script src="./js/index.js"></script>
-		<script src="./js/marquee.js"></script>
+		<script src="./js/script.js"></script>
 		<script>
-			$('.simple-marquee-container').SimpleMarquee();
+			function toggleFixed () {
+							var parentwidth = $("#left").width();
+							$("nav")[0].toggleClass("fixed").width(parentwidth);
+						}
+
 		</script>
-		-->
 	</body>
 </html>
 
@@ -75,8 +78,8 @@
 	* integration typo
 	* [x] Latin Modern Mono
 	* erg fonts
-		* lucette
-		* rounded span instead of bold ?
+	* lucette
+	* rounded span instead of bold ?
 	* integration carte
 	* test article
 	* bandeau news
@@ -86,6 +89,6 @@
 	* dark mode
 	* ...
 
-
+-->
 
 
